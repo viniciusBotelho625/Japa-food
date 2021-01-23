@@ -1,1 +1,52 @@
+.content {
+  margin-top: 10%;
+}
+
+.card {
+  width: 200px;
+  height: 310px;
+  perspective: 1000px;
+  border: none;
+  border-radius: 40px;
+  background-image: linear-gradient(to bottom, #F2F6FF 30%, white);
+  box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.11);
+  text-align: center;
+  margin-top: -50px;
+  margin-right: 5%;
+}
+
+.card-body{
+  margin-top: 18%;
+}
+.title, .price {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  line-height: 0%;
+}
+
+.description, .description-main {
+  font-family: 'Roboto', sans-serif;
+  color: #666669;
+  font-size: 16px;
+  max-width: 500px;
+}
+
+.add {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.title-main{
+  font-family: 'Courgette', cursiva;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 40px;
+  max-width: 500px;
+  margin-bottom: 5%;
+}
+
 
