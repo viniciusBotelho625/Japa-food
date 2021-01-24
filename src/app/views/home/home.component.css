@@ -31,13 +31,14 @@
   max-width: 500px;
 }
 
-.add {
+.btn-add {
   border: none;
   background-color: black;
   color: white;
   border-radius: 50%;
   width: 35px;
   height: 35px;
+  cursor: pointer;
 }
 
 .title-main{
@@ -49,4 +50,22 @@
   margin-bottom: 5%;
 }
 
+.temaki {
+  margin-top: 10%;
+}
 
+.medias {
+  margin-top: 15%;
+}
+
+.img-rodizio {
+  width: 100%;
+}
+
+.card-delivery {
+  display: flex;
+}
+
+.download img {
+  width: 40%;
+}
