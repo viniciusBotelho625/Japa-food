@@ -1,0 +1,49 @@
+ul {
+  list-style: none;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2.5rem;
+  color: rgba(240, 248, 255, 0.384);
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+
+.footer {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer img {
+  width: 270px;
+  margin-top: -5%;
+}
+footer {
+  margin-top: 15%;
+  background-color: rgb(2, 2, 2);
+}
+
+.phone, .email, .location {
+  display: flex;
+}
+
+.bi-facebook, .bi-instagram, .bi-twitter {
+  font-size: 30px;
+  margin-right: 10%;
+}
+
+.img-animada:hover {
+  animation: vibration 350ms;
+  animation-iteration-count: 2;
+}
+
+@keyframes vibration {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  35% {
+    transform: translateX(-15%);
+  }
+  75% {
+    transform: translateX(-15%);
+  }
+}
