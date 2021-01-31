@@ -2,19 +2,6 @@
   margin-top: 10%;
 }
 
-.card {
-  width: 200px;
-  height: 310px;
-  perspective: 1000px;
-  border: none;
-  border-radius: 40px;
-  background-image: linear-gradient(to bottom, #F2F6FF 30%, white);
-  box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.11);
-  text-align: center;
-  margin-top: -50px;
-  margin-right: 5%;
-}
-
 .card-body{
   margin-top: 18%;
 }
@@ -61,7 +48,7 @@
 }
 
 .img-rodizio {
-  width: 100%;
+  width: 90%;
 }
 
 .card-delivery {
@@ -69,11 +56,75 @@
 }
 
 .download img {
-  width: 40%;
+  width: 80%;
+}
+
+.jump:hover{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+  transition: 0.5s;
+}
+
+/* Efeito Flipp */
+
+.main-container {
+  position: relative;
+  width: 250px;
+  height: 350px;
+}
+
+.thecard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.cardback .description {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  line-height: 1.5rem;
+  color: #c7c7c9;
+}
+
+.thecard:hover {
+  transform: rotateY(180deg);
+  transition: 0.8s;
+}
+
+.cardfront {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border: none;
+  border-radius: 40px;
+  background-image: linear-gradient(to bottom, #F2F6FF 30%, white);
+  box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.11);
+  text-align: center;
+  margin-top: -50px;
+  margin-right: 5%;
+}
+
+.cardback {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+  border: none;
+  border-radius: 40px;
+  background: black;
+  box-shadow: 3px 2px 1px rgba(0, 0, 0, 0.11);
+  text-align: center;
+  margin-top: -50px;
+  margin-right: 5%;
 }
 
 @media(max-width: 600px) {
-  .card {
+  .thecard {
     margin-top: 30%;
     height: 62%;
   }
@@ -103,5 +154,10 @@
   .description-main, .description {
     color: #666669c4;
     margin-top: 10%;
+  }
+
+  .download img {
+    width: 50%;
+    height: 30%;
   }
 }
