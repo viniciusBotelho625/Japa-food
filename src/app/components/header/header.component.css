@@ -24,3 +24,18 @@
 .img-sushi{
   width: 790px;
 }
+
+@media(max-width: 600px) {
+  .img-sushi {
+    width: 100%;
+    opacity: 0.2;
+    margin-top: -80%;
+  }
+  .title {
+    font-size: 58px;
+  }
+  .description{
+    margin-top: 20%;
+    color: #6f6f70;
+  }
+}

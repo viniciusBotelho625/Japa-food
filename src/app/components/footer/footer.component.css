@@ -47,3 +47,17 @@ footer {
     transform: translateX(-15%);
   }
 }
+
+@media(max-width: 600px) {
+  .medias-sociais {
+    text-align: center;
+  }
+
+  .medias-sociais .title {
+    display: none;
+  }
+
+  .bi-facebook {
+    margin-left: 15%;
+  }
+}

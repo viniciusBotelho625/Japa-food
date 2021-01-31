@@ -18,13 +18,15 @@
 .card-body{
   margin-top: 18%;
 }
+
 .title, .price {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  line-height: 0%;
+  line-height: 1.0rem;
+  color: #666669;
 }
 
-.description, .description-main {
+.description-main, .description {
   font-family: 'Roboto', sans-serif;
   color: #666669;
   font-size: 16px;
@@ -70,3 +72,36 @@
   width: 40%;
 }
 
+@media(max-width: 600px) {
+  .card {
+    margin-top: 30%;
+    height: 62%;
+  }
+  .img-mobi {
+    width: 90%;
+  }
+
+  .title-mobi {
+    margin-top: -10%;
+  }
+
+  .temaki img {
+    width: 100%;
+  }
+  .card-delivery img {
+    width: 50%;
+  }
+
+  .temaki .row .resume:first-child{
+    order: 2;
+  }
+
+  .img-rodizio {
+    margin: 10% 0;
+  }
+
+  .description-main, .description {
+    color: #666669c4;
+    margin-top: 10%;
+  }
+}
