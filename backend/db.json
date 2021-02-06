@@ -9,64 +9,57 @@
     },
     {
       "id": 2,
-      "name": "Sushi",
-      "price": 45.00,
+      "name": "Salmão",
+      "price": 25.00,
       "description": "",
       "img": ""
     },
     {
       "id": 3,
-      "name": "Sushi",
+      "name": "Temaki",
       "price": 45.00,
       "description": "",
       "img": ""
     },
     {
       "id": 4,
-      "name": "Sushi",
+      "name": "Camarão",
       "price": 45.00,
       "description": "",
       "img": ""
     },
     {
       "id": 5,
-      "name": "Sushi",
-      "price": 45.00,
+      "name": "Hot Roll",
+      "price": 9.99,
       "description": "",
       "img": ""
     },
     {
       "id": 6,
-      "name": "Sushi",
-      "price": 45.00,
-      "description": "",
-      "img": ""
-    },
-    {
-      "id": 7,
-      "name": "Sushi",
-      "price": 45.00,
+      "name": "Guioza Frito",
+      "price": 18.00,
       "description": "",
       "img": ""
     },
     {
       "id": 8,
-      "name": "Sushi",
-      "price": 45.00,
+      "name": "Cola-cola",
+      "price": 6.00,
       "description": "",
       "img": ""
     },
     {
       "id": 9,
-      "name": "Sushi",
-      "price": 45.00,
+      "name": "Sushi Especial",
+      "price": 43.90,
       "description": "",
       "img": ""
     },
     {
       "id": 10,
-      "name": "Sushi",
-      "price": 45.00,
+      "name": "Japa Acompanhado",
+      "price": 79.90,
       "description": "",
       "img": ""
     }

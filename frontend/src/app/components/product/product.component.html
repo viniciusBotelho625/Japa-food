@@ -1,1 +1,16 @@
-<p>product works!</p>
+<section class="products">
+  <div class="d-flex row" style="justify-content: center;">
+    <div *ngFor="let product of products" class="card">
+      <img src="../../../assets/img/salmão.png" alt="">
+      <p class="title">{{product.name}}</p>
+      <div class="avaliation">
+        <p class="star">⭐⭐⭐⭐⭐</p>
+        <p class="price">{{product.price | currency:'BRL' }}</p>
+      </div>
+      <button class="btn-car">
+        <i class="bi bi-cart3"></i>
+      </button>
+    </div>
+  </div>
+</section>
+

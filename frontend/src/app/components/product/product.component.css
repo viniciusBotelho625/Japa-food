@@ -1,0 +1,58 @@
+.card {
+  background-color: #101010;
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 5%;
+  margin-right: 5%;
+  box-shadow: 1px 4px 5px 3px rgba(0, 0, 0, 0.212);
+  cursor: pointer;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.0);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: 0.4s;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 40%;
+  margin: -15% 0 0 -20%;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(255, 255, 255, 0.829);
+  text-align: center;
+  margin-top: -10%;
+  font-size: 15px;
+}
+
+.avaliation {
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  font-size: 12px;
+  margin-right: 5%;
+}
+
+.price {
+  color: rgba(218, 29, 29, 0.719);
+}
+
+.btn-car {
+  background-color: rgba(2, 235, 2, 0.733);
+  width: 35px;
+  height: 30px;
+  color: aliceblue;
+  border: none;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 100px;
+  border-top-right-radius: 20px;
+  margin-left: 89%;
+  cursor: pointer;
+}

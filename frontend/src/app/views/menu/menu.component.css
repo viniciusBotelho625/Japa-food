@@ -1,0 +1,14 @@
+.title {
+  font-family: 'Courgette', cursiva;
+  font-weight: bold;
+  font-size: 64px;
+  max-width: 400px;
+  line-height: 4.5rem;
+}
+
+.btn-pay {
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}

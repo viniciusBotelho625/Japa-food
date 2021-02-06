@@ -1,16 +1,18 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { read } from 'fs';
 import { Observable } from 'rxjs';
+import { Product } from './product.module';
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
 
-  constructor() {
+  baseUrl = "http://localhost:3001/products"
 
-    read(): Observable< {
+  constructor( private http: HttpClient ) {}
 
-    }
+  read(): Observable<Product[]> {
+    return this.http.get<Product[]>(this.baseUrl)
   }
 }

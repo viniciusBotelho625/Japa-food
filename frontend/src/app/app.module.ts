@@ -10,6 +10,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { MenuComponent } from './views/menu/menu.component';
 import { ProductComponent } from './components/product/product.component'
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,8 @@ import { ProductComponent } from './components/product/product.component'
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
