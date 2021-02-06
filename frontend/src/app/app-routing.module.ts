@@ -1,11 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './views/home/home.component';
+import { MenuComponent } from './views/menu/menu.component';
 
 const routes: Routes = [
   {
     path: '', component: HomeComponent
+  },
+  {
+    path: 'menu', component: MenuComponent
   }
 ];
 
