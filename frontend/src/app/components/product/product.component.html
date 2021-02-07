@@ -1,16 +1,30 @@
 <section class="products">
-  <div class="d-flex row" style="justify-content: center;">
-    <div *ngFor="let product of products" class="card">
-      <img src="../../../assets/img/salmão.png" alt="">
-      <p class="title">{{product.name}}</p>
-      <div class="avaliation">
-        <p class="star">⭐⭐⭐⭐⭐</p>
-        <p class="price">{{product.price | currency:'BRL' }}</p>
+  <div class="d-flex row col-12" style="justify-content: center;">
+    <div class="main-container mr-5" *ngFor="let product of products">
+      <div class="thecard">
+        <div class="cardfront">
+          <div class="header">
+            <p class="title">{{product.name}}</p>
+          </div>
+          <div class="body">
+            <img src="../../../assets/img/temaki-mobi.png" class="card-img-top mt-5" alt="temaki">
+          </div>
+          <div class="footer mt-4">
+            <p class="avaliation">⭐⭐⭐⭐⭐</p>
+            <p class="price">{{product.price | currency:'BRL'}}</p>
+          </div>
+        </div>
+
+        <div class="cardback">
+          <span>
+            <i class="bi bi-cart4"></i>
+          </span>
+          <button class="btn-pay">Comprar</button>
+        </div>
       </div>
-      <button class="btn-car">
-        <i class="bi bi-cart3"></i>
-      </button>
     </div>
   </div>
 </section>
+
+<app-footer></app-footer>
 

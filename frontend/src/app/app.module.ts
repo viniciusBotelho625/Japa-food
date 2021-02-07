@@ -11,6 +11,7 @@ import { MenuComponent } from './views/menu/menu.component';
 import { ProductComponent } from './components/product/product.component'
 
 import { HttpClientModule } from '@angular/common/http';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     FooterComponent,
     MenuComponent,
-    ProductComponent
+    ProductComponent,
+    NavBarComponent
   ],
   imports: [
     BrowserModule,
