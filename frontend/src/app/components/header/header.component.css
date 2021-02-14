@@ -39,3 +39,9 @@
     color: #6f6f70;
   }
 }
+
+@media(max-width: 1000px) {
+  .img-sushi {
+    width: 100%;
+  }
+}

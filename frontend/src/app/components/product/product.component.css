@@ -75,7 +75,18 @@ span .bi-cart4 {
   margin-top: 2%;
 }
 
+.footer {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
 .footer .avaliation {
   font-size: 13px;
   font-family: 'Roboto', sans-serif;
+}
+
+.card-img-top {
+  max-width: 200px;
+  max-height: 200px;
 }

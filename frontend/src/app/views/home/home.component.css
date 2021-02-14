@@ -41,6 +41,7 @@
 
 .temaki {
   margin-top: 10%;
+  width: 96%;
 }
 
 .medias {
@@ -125,9 +126,14 @@
 
 @media(max-width: 600px) {
   .thecard {
-    margin-top: 30%;
-    height: 62%;
+    margin: 50% 0 30% 0;
+    height: 300px;
   }
+
+  .title-main {
+    margin-top: 30px;
+  }
+
   .img-mobi {
     width: 90%;
   }
